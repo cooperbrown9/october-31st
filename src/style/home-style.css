@@ -1,0 +1,94 @@
+
+
+.container {
+
+}
+
+.header-items {
+  float: right;
+}
+
+.item {
+  background: green;
+}
+
+.home-container {
+  flex: 1,auto;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  background: cyan;
+}
+
+.header-logo {
+  float: left;
+  background: orange;
+}
+
+._header {
+  flex: 1;
+  min-height: 64px; max-height: 300px;
+  flex-direction: row;
+  background: cyan;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items {
+  flex: 1;
+  background: magenta;
+  min-height: 32px; max-height: 160px;
+  margin: auto;
+}
+
+._header-logo {
+  flex: 1;
+  background: orange;
+  min-height: 32px; max-height: 160px;
+  margin: auto;
+
+}
+
+.grid-container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(5, 20vw);
+  grid-template-rows: repeat(5, 20vh);
+}
+
+.item-container {
+  background: yellow;
+  margin: auto;
+  max-width: 90%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 20vw);
+  grid-template-rows: repeat(4, 30vh);
+  grid-gap: 12px;
+
+}
+
+.item-container div {
+  background: green;
+}
+/*
+.item-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+  .item-container {
+    display: block;
+  }
+}
+
+.item {
+  width: 32%;
+} */
