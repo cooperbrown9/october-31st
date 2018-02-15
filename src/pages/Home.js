@@ -6,29 +6,67 @@ import '../style/home-style.css';
 
 class Home extends Component {
 
+  state = {
+    val: 0
+  }
 
+
+  printSumn(val) {
+    console.log('it works' + val);
+  }
 
   render() {
     return(
-      <div class="container-fluid header">
-        <div class="row header" >
-          <div class="col-sm-6 header-logo">
-            <img src="https://cdn.shopify.com/s/files/1/0311/1793/files/h_logo_xlarge1_280x@2x.png?v=1517444057"/>
+      <div>
+      <button onClick={() => this.printSumn(this.state.val)}/>
+        <nav id="header" class="navbar navbar-default fixed-top">
+          <a class="navbar-brand" href="#"><img src="https://cdn.shopify.com/s/files/1/0311/1793/files/h_logo_xlarge1_280x@2x.png" height="60px"/></a>
+        </nav>
+        <div class="container-fluid">
+          <h1>Header:</h1>
+          <div class="row">
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
           </div>
-          <div class="col-sm-6 header-items">
-            <a class="col-sm-2">HOME</a>
-            <a class="col-sm-2">SHOP</a>
-            <a class="col-sm-2">CONTACT</a>
+          <div class="row">
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
+            <div class="col-sm-3">
+              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg item">lol</div>
-          <div class="col-sm item">lol</div>
-          <div class="col-sm">lol</div>
-          <div class="col-sm">lol</div>
-        </div>
-        <div class="row"></div>
-        <div class="row"></div>
       </div>
     )
     // return(
