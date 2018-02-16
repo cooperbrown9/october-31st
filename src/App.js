@@ -8,13 +8,37 @@ import {
 } from 'react-router-dom';
 
 import Home from './pages/Home.js';
+import Contact from './pages/Contact.js';
+import Cart from './pages/Cart.js';
 
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <Home />
+      <BrowserRouter>
+        <div>
+          <Switch>
+            <Route exact path='/' render={() => {
+                return <Home />
+              }}
+            />
+
+          <Route exact path='/contact' render={() => {
+                return <Contact />
+              }}
+            />
+
+          <Route exact path='/cart' render={() => {
+              return <Cart />
+            }}
+          />
+
+
+          </Switch>
+
+        </div>
+      </BrowserRouter>
     )
     // return (
     //   <div className="App">
