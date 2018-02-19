@@ -23,9 +23,6 @@ class Contact extends Component {
           </div>
         </nav>
 
-
-
-
         <div id="contact-form" class="contact-form-container">
           <label>Name</label>
           <input></input>
