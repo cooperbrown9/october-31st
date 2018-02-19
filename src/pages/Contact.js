@@ -22,6 +22,7 @@ class Contact extends Component {
             <Tabs />
           </div>
         </nav>
+        
 
         <div id="contact-form" class="contact-form-container">
           <label>Name</label>
