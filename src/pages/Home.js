@@ -21,12 +21,22 @@ class Home extends Component {
       <button onClick={() => this.printSumn(this.state.val)}/>
         <nav id="header" class="navbar navbar-default fixed-top">
           <a class="navbar-brand" href="#"><img src="https://cdn.shopify.com/s/files/1/0311/1793/files/h_logo_xlarge1_280x@2x.png" height="60px"/></a>
+
+          <div class="links">
+            <a href="/contact" ><label class="link" width='25%'>HOME</label></a>
+            <label class="link" width='25%'>SHOP</label>
+            <label class="link" width='25%'>CONTACT</label>
+          </div>
+
         </nav>
         <div class="container-fluid">
           <h1>Header:</h1>
           <div class="row">
             <div class="col-sm-3">
-              <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+                <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>
+                <div class="">
+                  <label>PRICE</label>
+                </div>
             </div>
             <div class="col-sm-3">
               <img id="temp" src="https://cdn.shopify.com/s/files/1/0311/1793/products/M17Z1406_-_TOMORROW_LS_TEE_580x@2x.jpg?v=1516131550"/>

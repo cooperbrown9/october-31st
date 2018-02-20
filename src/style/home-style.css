@@ -5,6 +5,39 @@
 
 #temp {
   max-width: 100%;
+  max-height: 80%;
+}
+
+.shop-item {
+
+}
+
+
+.links {
+  min-width: 30%;
+  max-width: 50%;
+  font-family: 'Roboto';
+}
+
+.link-a a {
+  link: black;
+  visited: black;
+  hover: black;
+
+}
+
+a:link {
+  color: black
+}
+
+.link {
+  padding: 16px;
+  font-family: Helvetica;
+  padding-right: 16px;
+  font-size: 20px;
+  border-bottom-color: magenta;
+  border-bottom-width: 2px;
+  border-bottom-style: groove;
 }
 
 .header img {
